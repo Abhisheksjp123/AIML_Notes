@@ -1,0 +1,3 @@
+Q5-LASSO tends to select _____ when features are highly correlated a) All correlated features b) One feature arbitrarily from the correlated group c) The most important correlated features d) None of the correlated features
+- **Answer:** b (One feature arbitrarily from the correlated group)
+- **Explanation:** LASSO tends to pick one feature from a correlated group arbitrarily, which is why Elastic Net is preferred - it includes correlated features together.

@@ -12,4 +12,4 @@ This is achieved by 2 types of penalties:
 
 
 Questions:
-[[Q4-Feature scaling is important for regularized regression because a) It speeds up computation b) Regularization penalties are scale-dependent c) It's required by the algorithm d) It improves interpretability]]
+[[Q4-Feature scaling is important for regularized regression because{MCQ}]]

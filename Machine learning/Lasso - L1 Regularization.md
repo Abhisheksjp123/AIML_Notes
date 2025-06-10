@@ -8,4 +8,4 @@ this ( λ x |slope| ) is Called L1 /Lasso penalty
 
 
 Question:
-[[Q5-LASSO tends to select _____ when features are highly correlated  a) All correlated features b) One feature arbitrarily from the correlated group c) The most important correlated features d) None of the correlated features]]
+[[Q5-LASSO tends to select _____ when features are highly correlated{MCQ}]]

@@ -1,0 +1,3 @@
+Q4-Feature scaling is important for regularized regression because a) It speeds up computation b) Regularization penalties are scale-dependent c) It's required by the algorithm d) It improves interpretability
+- **Correct answer:** b (Regularization penalties are scale-dependent)
+- **Explanation:** Features with larger scales get penalized more heavily. If one feature is in dollars and another in thousands of dollars, the penalty affects them differently without scaling.
