@@ -15,4 +15,4 @@ It is determined by Cross validation
 Ridge regression is also known as Tikhonov regularization, named after Andrey Tikhonov. "Sparse regularization" refers to LASSO.
 Questions
 
-[[Q3-Ridge regression is particularly effective for a) Feature selection b) Handling multicollinearity c) Creating sparse models d) Increasing model complexity.]]
+[[Q3-Ridge regression is particularly effective for{MCQ}]]
