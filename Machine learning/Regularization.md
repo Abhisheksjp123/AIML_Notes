@@ -5,4 +5,6 @@ Regularization is a technique in Machine learning to prevent Overfitting, i.e wh
 This is achieved by 2 types of penalties:
 1. [[Ridge - L2 Regularization]]
 2. [[Lasso - L1 Regularization]]
-3. 
+
+[[Q2-How are Ridge and Lasso different and where should one be preferred over another]]
+3. [[ElasticNet Regularization]]
