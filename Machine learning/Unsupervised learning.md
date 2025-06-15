@@ -6,20 +6,13 @@ Main Types of Unsupervised Learning:
 
 **What it does**: Groups similar data points together
 
-**Real-world example**: A streaming service wants to understand their users better. They cluster users based on viewing habits and discover groups like "Weekend Binge Watchers," "Documentary Enthusiasts," and "Comedy Lovers."
-
-**Common algorithms**:
-- [[K-Means]]: Divides data into k clusters (you specify k)
-- [[Hierarchical]]: Creates a tree of clusters
-- [[DBSCAN]]: Finds clusters of varying shapes and sizes
-
 ### 2. [[Dimensionality Reduction]]
 
 **What it does**: Simplifies data while keeping important information
 
 **Why it's useful**:
 
-- Visualisation (plot 100-dimensional data in 2D)
+- Visualization (plot 100-dimensional data in 2D)
 - Remove noise and redundancy
 - Speed up other algorithms
 
