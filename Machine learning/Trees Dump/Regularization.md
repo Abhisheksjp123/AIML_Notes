@@ -12,6 +12,7 @@ This is achieved by 2 types of penalties:
 2. [[Lasso - L1 Regularization]]
 
 [[Q2-How are Ridge and Lasso different and where should one be preferred over another]]
+
 3. [[ElasticNet Regularization]]
 
 
