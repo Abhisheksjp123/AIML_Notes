@@ -20,7 +20,7 @@ Main Types of Unsupervised Learning:
 
 **Common algorithms**:
 
-- **PCA (Principal Component Analysis)**: Finds the most important directions in data
+- [[PCA (Principal Component Analysis)]]: Finds the most important directions in data
 - **t-SNE**: Great for visualization, preserves local neighborhoods
 
 
