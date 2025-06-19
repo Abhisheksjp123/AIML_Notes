@@ -14,3 +14,5 @@ also,
 Do you remember how we merged genes #1 an #3 into cluster #1 and compared it to other genes? Well, there are different ways to compare clusters, too. One simple idea is to use the average of the measurements from each sample. 
 But there are lots more.
 ![[638856175467225060.png]]
+
+[[Hierarchical Code and hyper parameter]]

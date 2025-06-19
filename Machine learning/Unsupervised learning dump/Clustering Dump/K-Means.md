@@ -27,3 +27,6 @@ However, if we plot the reduction in variance per value for k.
 This is called an "elbow plot", and you can pick "K" by finding the "elbow" in the plot
 
 ![[638856177264877083.png]]
+
+
+[[K-Means Code and hyper parameter]]

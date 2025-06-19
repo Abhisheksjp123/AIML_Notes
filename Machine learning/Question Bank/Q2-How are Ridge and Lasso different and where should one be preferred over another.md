@@ -9,6 +9,6 @@ For Liner model example plots of Ridge and lasso will be as follows:![[638851551
 Notice as the lambda increases the the optimal slope decreases. Ridge regression penalizes heavily, because of which the slope can come very close to zero  but not exactly to 0. This can be seen from above graph as well.
 Lasso on the other hand penalizes less and gradually, and can force the slope to be 0.
 
-Because of this Lasso Regression can also be used for [[Feature selection]]
+Because of this Lasso Regression can also be used for [[Feature Selection]]
 
 #Question

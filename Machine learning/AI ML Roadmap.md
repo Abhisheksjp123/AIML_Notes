@@ -1,5 +1,5 @@
 
-ML
+Machine learning
 1. [[Introduction to ML]]
 2. [[Linear Models]]
 3. [[Tree Based Models]]
@@ -10,5 +10,11 @@ ML
 8. [[Regularization]]
 9. [[Clustering]]
 
-AI
+Deep Learning
 1. [[Neural Network]]
+2. [[CNN]]
+3. [[RNN]]
+4. [[LSTM]]
+5. [[Transformers]]
+6. [[Agentic]]
+7. [[MCP]]
