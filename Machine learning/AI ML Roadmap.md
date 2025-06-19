@@ -6,7 +6,7 @@ ML
 4. [[SVM]]
 5. [[Other Models]]
 6. [[Data Preprocessing]]
-7. [[Model evaluation metrics]]
+7. [[Model evaluation]]
 8. [[Regularization]]
 9. [[Clustering]]
 

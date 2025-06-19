@@ -1,5 +1,4 @@
-1. Dimentionality reduction
+
+1. [[Feature scaling]]
+2. Dimensionality reduction
 [[PCA (Principal Component Analysis)]]
-
-
-[[**PCA (Principal Component Analysis)**]]
