@@ -27,3 +27,9 @@
 - Look for patterns rather than random scatter
 
 **The assumption**: Residuals should be random noise with no predictable pattern. If you can predict one residual from another, your model is incomplete.
+
+code
+simply plot the residuals and check if it dosen't follows any pattern
+```
+plt.plot(residuals)
+```
