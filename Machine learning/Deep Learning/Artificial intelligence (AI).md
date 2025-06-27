@@ -8,4 +8,4 @@ Search algorithms that explore possible solutions
 Knowledge representation systems that store and manipulate information
 Symbolic reasoning systems that work with abstract concepts
 
-Machine learning has become incredibly prominent and successful, which is why people sometimes conflate it with AI entirely. But historically and conceptually, AI includes many approaches beyond just learning from data. ML is powerful because it can handle complex, ambiguous situations where it would be difficult or impossible to write explicit rules, but it's still just one tool in the broader AI toolkit.RetryClaude can make mistakes. Please double-check responses. Sonnet 4
+Machine learning has become incredibly prominent and successful, which is why people sometimes conflate it with AI entirely. But historically and conceptually, AI includes many approaches beyond just learning from data. ML is powerful because it can handle complex, ambiguous situations where it would be difficult or impossible to write explicit rules, but it's still just one tool in the broader AI toolkit.
