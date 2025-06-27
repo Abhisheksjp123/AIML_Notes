@@ -21,6 +21,5 @@
 
 **5. Real-world Applications** Many business problems need **explanation over prediction** - "Why did sales increase?" matters more than perfect accuracy.
 
-Q6- What to look for before applying linear regression
-
+[[Assumptions in Linear Regression]]
 [[How Linear regression works]]
