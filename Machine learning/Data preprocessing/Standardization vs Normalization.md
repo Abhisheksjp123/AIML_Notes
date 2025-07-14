@@ -2,7 +2,7 @@
 
 ## [[Standardization]]≠ [[Normalization]]
 
-
+Code to apply both
 ```
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 

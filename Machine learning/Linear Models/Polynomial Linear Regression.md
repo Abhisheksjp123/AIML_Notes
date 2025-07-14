@@ -27,7 +27,7 @@ y = β₀ + β₁x + β₂x² + β₃x³ + β₄x⁴
 - **"Linear" in Linear Regression** refers to coefficients, not features
 - **Same algorithm** (OLS), just different input features
 - **Higher-order terms** capture non-linear relationships
-- **Overfitting risk** increases with degree (regularization helps)
+- **Overfitting risk** increases with degree (regularisation helps)
 
 **Result:** If data truly follows y = 2x + 3, then coefficients for x², x³... will be ≈ 0.
 

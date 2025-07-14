@@ -1,7 +1,7 @@
-In statistics, data science and machine learning, we optimize a lot of stuff. when we fitted a line in linear regression we optimized the slope, we optimized the swigley while fitting logistic regression , and when we run t-SNE We optimize clusters. The Cool thing is Gradient descent can optimize these things and much more.
+In statistics, data science and machine learning, we optimise a lot of stuff. when we fitted a line in linear regression we optimised the slope, we optimised the wiggly while fitting logistic regression , and when we run t-SNE We optimise clusters. The Cool thing is Gradient descent can optimise these things and much more.
 
-Step by step process to optimize slope and intercept in Linear Regression with GD
-let's start with optimizing the intercept and keep slope = 0.64  
+==Step by step process to optimise slope and intercept in Linear Regression with GD==
+let's start with optimising the intercept and keep slope = 0.64  
 Predicted height = intercept +0.64 x Weight
 
 step1) take a random initial value for intercept =o , this will give GD a starting point for Something to improve upon  
@@ -14,23 +14,23 @@ simply find where the the slope of the curve = 0.In contrast, Gradient Descent f
 
 ![[638858091441499456.png]]
 Step 4) Now we'll change intercept and the step we'll use to reduce intercept is determined by step size , this is determined by gradient descent  
-when Slope is far from zero we'll take Small Steps , and when close to O Small Steps  
+when Slope is far from zero we'll take large Steps , and when close to 0 we'll take Small Steps  
 Gradient descent decides the intercept by multiplying Slope by learning rate  
-Step size = Slope x learning rate  
+Step size = Slope x learning rate 
 Intercept new = intercept old - step size
-![[638858091864386427.png]]In the above example of GD Slope Converges to o and we get optimal intersept after 6th step
+![[638858091864386427.png]]In the above example of GD Slope Converges to 0 and we get optimal intercept after 6th step
 
 Step 6) but how do we decide how much steps GD must take to get to the optimal solution?  
-a) when the step size is very close to O (in practice 0-001 or smaller )  
-b) or there is no of steps defined before it gives up ( in practice max steps = 1000 )
+a) when the step size is very close to O (in practice 0.001 or smaller )  
+b) or there is predefined no of steps before it gives up ( in practice max steps = 1000 )
 
-NOW let's talk abut how to estimate the Intercept and the Slope.Just like before, we will use the Sum of the Squared Residuals as the Loss Function. This iS a 3-D graph of the Loss Function for different values for the Intercept and the Slope.
+NOW let's talk abut how to estimate the Intercept and the Slope? Just like before, we will use the Sum of the Squared Residuals as the Loss Function. This iS a 3-D graph of the Loss Function for different values for the Intercept and the Slope.
 ![[638858092967576418.png]]
 This time again we'll also take derivative of loss function with intercept to find optimal intercept, but unlike before, we'll also take the derivative with respect to the Slope.
 
 ![[638858093284621957.png]]
 
-NOTE: When you have two or more derivatives of the same function, they are called a Gradient.We will use this Gradient to descend to lowest point in the Loss Function, which, in this case, is the Sum of the Squared Residuals. This is why the algorithm is Called gradient descent.  
+NOTE: When you have two or more derivatives of the same function, they are called a Gradient. We will use this Gradient to descend to lowest point in the Loss Function, which, in this case, is the Sum of the Squared Residuals. This is why the algorithm is called gradient descent.  
   
 Step 1) This time with Intercept = 0 and Slope = 1, is where we will start.  
 and rest of the things follows Same route

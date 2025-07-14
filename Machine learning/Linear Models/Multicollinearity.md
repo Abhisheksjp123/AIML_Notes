@@ -14,7 +14,7 @@ What does they signify?
 
 [[Variance inflation Factor]] is an important method to test multicollinearity in your data
 ```
-from statsmodels.stats.outliers influence import variance_ inflation_ factor
+from statsmodels.stats.outliers_influence import variance_inflation_factor as VIF
 
 vif = []
 

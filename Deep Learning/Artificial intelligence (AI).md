@@ -1,5 +1,5 @@
 Machine learning is considered a subset of AI because it represents one specific approach to achieving artificial intelligence, rather than encompassing the entire field.
-Artificial Intelligence is the broader goal of creating systems that can perform tasks that typically require human intelligence - things like reasoning, problem-solving, understanding language, recognizing patterns, and making decisions. This is the overarching umbrella concept.
+Artificial Intelligence is the broader goal of creating systems that can perform tasks that typically require human intelligence - things like reasoning, problem-solving, understanding language, recognising patterns, and making decisions. This is the overarching umbrella concept.
 Machine learning is one particular method for achieving AI. It focuses on creating systems that can automatically learn and improve from experience without being explicitly programmed for every possible scenario. Instead of hand-coding all the rules and logic, ML systems use algorithms to find patterns in data and make predictions or decisions based on those patterns.
 Think of it this way: if AI is like "transportation," then machine learning is like "cars" - it's one important way to achieve transportation, but not the only way. Other approaches to AI include:
 

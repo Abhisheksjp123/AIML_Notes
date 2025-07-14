@@ -1,2 +1,2 @@
-[[Linear Regression]]
-[[Logistic Regression]]
+1. [[Linear Regression]]
+2. [[Logistic Regression]]
