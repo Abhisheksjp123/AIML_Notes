@@ -4,5 +4,6 @@ Types of models:
 1. [[Linear Models]]
 2. [[Tree Based Models]]
 3. [[Support vector machine(SVM)]]
-4. [[Neural Network]]
-5. [[Other Supervised Models]]
+4. [[Other Supervised Models]]
+5. [[Boosting Algorithms]]
+6. [[Neural Network]]

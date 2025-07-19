@@ -1,17 +1,28 @@
-ML
+###### DataStructures
+Pandas
+Numpy
+
+###### Plotting
+Matplotlib
+Seaborn
+###### ML
 Sklearn
 
 
 
-DL
+###### DL
 [[Pytorch]]
 TensorFlow
 
 
-PDFs
+###### PDFs
 Pypdf
 pdfplumber
 pdfminer
 
-AI
+###### AI
 langchain
+
+
+###### SQL
+DuckDB
