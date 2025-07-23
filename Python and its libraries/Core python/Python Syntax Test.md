@@ -297,4 +297,133 @@ Q1. Which function converts a number to a string?
 >In Python, the **str()** function is used to **convert numbers (and other data types) into strings**.
 
 
-Q2. How does Python handle memory allocation for different data types?
+## Variables
+Q1. Which of the following is a valid variable name in Python?
+
+- a) 2variable
+- b) variable-2
+- c) variable_2
+- d) variable 2
+
+>[!Ans]-
+>c
+>In Python, a valid variable name:
+>Must start with a letter (A–Z or a–z) or an underscore (_)
+>Can be followed by letters, numbers (0–9), or underscores
+>Cannot contain spaces or special characters like `-`
+   Cannot start with a digit
+
+Q2. What is the output
+```
+a, b, c = 1, 2, 3 
+print(a + b + c)
+```
+>[!Ans]-
+> We can define multiple variables in a single line in python as
+> a, b, c = 1, 2, 3 
+> Or 
+> a=1; b=2; c=3
+## Keywords
+**Keywords** in Python are special **reserved words** that have specific meanings and purposes within the language's syntax. These words form the core of Python's structure and logic and cannot be used for any other purpose, such as naming variables, functions, classes, or any identifiers
+Q1. How many keywords are there in Python 3.9+?
+
+- a) 33
+- b) 35
+- c) 37
+- d) 39
+
+>[!Ans]-
+>C
+>import keyword
+>print(leyword.kwlist)
+>False, True, None, and, or, not, if, elif, else, while, for, break, continue, return, is, in, def, class,
+> try, except, raise, finally, import, from, as, global, nonlocal, lambda, yield, assert, pass, del, with, await, async
+
+
+## Identifiers
+A Python identifier is a name used to identify a variable, function, class, module or other object.
+Rules for setting Identifiers
+• can only start with an alphabet or
+• Followed by 0 or more letter,_ and digits
+• keywords cannot be used as an Identifiers
+
+Q1. A variable that starts with double underscore (Ex.` __varname`) is called a _______ variable.
+
+>[!Ans]-
+>A variable that starts with double underscore (`__`) is called a **name-mangled variable** or a **private variable** in Python (often referred to as a _name-mangled_ or _"pseudo-private"_variable)
+>When you define a variable or method inside a class with a double leading underscore (e.g., `__varname`), the Python interpreter automatically performs **name mangling**: it internally renames the attribute to `_ClassName__varname` to help avoid accidental access and override in subclasses
+>The main purpose is **to avoid naming conflicts in subclasses** and to make the variable less accessible from outside the class, simulating privacy
+>class MyClass: 
+>	def __init__(self): 
+>		self.__private = 42 
+>obj = MyClass()
+># obj.__private # AttributeError 
+>print(obj._MyClass__private) # 42
+>Note: This is different from variables with double underscores at both the start and end (e.g., `__init__`), which are called _special methods_ or _dunder methods_, not name-mangled variables
+
+## Input in python
+
+Q1. Which function is used to take input from the user in Python 3?
+
+- a) input()
+- b) raw_input()
+- c) get_input()
+- d) read()
+
+>[!Ans]-
+> a, input()
+
+Q2. What data type does the `input()` function always return?
+
+- a) int
+- b) float
+- c) str
+- d) depends on input
+
+>[!Ans]-
+>C Str
+
+
+Q3. How do you display a prompt message when taking input?
+
+- a) input("Enter value: ")
+- b) input() + "Enter value: "
+- c) prompt("Enter value: ")
+- d) input.prompt("Enter value: ")
+>[!Ans]-
+>a)input("Enter value: ")
+
+Q4. Which module is used for password input (hidden input)?
+
+- a) password
+- b) getpass
+- c) hidden
+- d) secure
+
+>[!Ans]-
+>**b) getpass**
+>The module used for password input (hidden input) in Python is **getpass**. The `getpass` module allows you to prompt the user for a password without echoing what they type, keeping the input hidden for security purposes
+### Input validation
+Q1. Which method checks if a string contains only digits?
+
+- a) isdigit()
+- b) isnumber()
+- c) isint()
+- d) isnumeric()
+
+>[!Ans]-
+>The method that checks if a string contains only digits in Python is **`isdigit()`**.
+>**`isdigit()`** returns `True` if all characters in the string are digits (0-9) and the string is not empty, otherwise it returns `False`
+
+
+Q2. How do you check if input is a valid float?
+
+- a) isfloat()
+- b) try-except with float()
+- c) input().isreal()
+- d) validate_float()
+
+>[!Ans]-
+>**b) try-except with float()**
+>Python does **not** have a built-in method like `isfloat()` to directly check if a string input is a valid float
+>The recommended way is to use a `try-except` block: try converting the input to a float using `float(input())`. If it **succeeds**, the input is a valid float; if it raises a `ValueError`, it is not
