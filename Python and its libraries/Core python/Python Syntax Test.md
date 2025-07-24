@@ -283,6 +283,11 @@ Q3. How do you add an element to a set?
 >- **b) insert()** – Also a **list method** (adds at a specific index).  
 >- **d) push()** – Not a Python method; used in stack operations in other languages.
 
+Q4. Which creates an empty set?** 
+a) `{}`  
+b) `set()`  
+c) `[]`  
+d) `()`
 ### Type Conversion
 
 Q1. Which function converts a number to a string?
@@ -427,3 +432,58 @@ Q2. How do you check if input is a valid float?
 >**b) try-except with float()**
 >Python does **not** have a built-in method like `isfloat()` to directly check if a string input is a valid float
 >The recommended way is to use a `try-except` block: try converting the input to a float using `float(input())`. If it **succeeds**, the input is a valid float; if it raises a `ValueError`, it is not
+
+## Literal
+Literal are basically raw data given to a variable. 
+In python there are 4 types of literals
+- Numeric
+- String
+- Boolean
+- Special
+### Numeric literal
+Q1. Which of the following represents the number 255 in hexadecimal?
+a) 0x255  
+b) 0xFF  
+c) 0o255  
+d) 0b255
+
+>[!Ans]-
+
+
+Q2. **4. Which literal represents a complex number?**
+a) 3.14i  
+b) 3 + 4j  
+c) complex(3,4)  
+d) Both b and c
+
+### String Literal
+Q1. ## String Literals
+
+Q1. Which of these creates a raw string?** 
+a) `"C:\new\folder"`  
+b) `r"C:\new\folder"`  
+c) `raw"C:\new\folder"`  
+d) `\r"C:\new\folder"`
+
+**Q2. What type is `b"hello"`?** 
+a) str  
+b) bytes  
+c) bytearray  
+d) binary
+
+Q**3. Which is NOT a valid way to create a multi-line string?** 
+a) `"""line1\nline2"""`  
+b) `'''line1\nline2'''`  
+c) `"line1\nline2"`  
+d) `""line1\nline2""`
+
+Q4. Which literal creates the largest number?** a) `1e6`  
+b) `1000000`  
+c) `0x100000`  
+d) All are equal
+
+Q5. Which is equivalent to `[0, 0, 0, 0, 0]`?
+a) `[0] * 5`  
+b) `0 * [5]`  
+c) `[0 * 5]`  
+d) `list(0, 5)`
