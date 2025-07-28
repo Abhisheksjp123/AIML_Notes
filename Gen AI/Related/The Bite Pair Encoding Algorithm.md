@@ -1,0 +1,1 @@
+In the sequence of symbols,  in order to reduce the no of symbols we try to find patterns which repeats frequently. So what we do is to group this pair into a new symbol.
