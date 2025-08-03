@@ -1,23 +1,48 @@
+ Generative AI refers to artificial intelligence systems that can create new content - text, images, code, music, videos, and more - based on patterns learned from training data, mimicking human creativity.
 
-Machine learning vs Gen AI
-ML is maths, it required data manipulation, statistics, python, NN, sckit
-How to train NN ,what is a NN
-and how LLMs are build ground up
-that is more on the research work
+Mental model to learn Generative-AI
+Base models are computationally expensive and are created by big companies like Open-Ai, Anthropic. 
+How to use these base models as a consumer is a syllabus to learn in Gen-AI:
+User perspective involves - RAG, Finetuning, Agentic, Vector databases, Prompt engineering
+Builder perspective involves - RLHF, Fine tuning, pretraining, quantization
+# Foundational model/ Base model
+## A. Builders perspective
+	1. Transformer architecture
+	2. Types of Transformers
+		1. Encoder only (Bert)
+		2. Decoder only (LLama, Mistral)
+		3. Encoder + Decoder
+	3. Pretraining
+	4. Optimization
+	5. Evaluation
+	6. Deployment
+## B. User perspective
+	1. Building basic LLM Apps
+		1. Open source vs closed source LLMs
+		2. Using LLM APIs
+		3. LangChain
+		4. Huggingface 
+		5. Ollama
+	2. Prompt engineering
+	3. RAG
+	4. Fine Tuning
+	5. Agentic
+	6. LLMOps
+	7. Misc
 
-Gen AI on the other hand is development
-THat is how to use the LLMs created by ML engineers for our business use case.
-How to integrate or orchestrate an LLMS to my existing workflow that it reduces or optimized the manual workflow or automate it
+![[Pasted image 20250803132516.png | 450]]
 
-Foundation Phase 0: Foundation of GenAI
-1. Intro to GenAI and LLMs
-	- What are GenAI? LLM? RAG?
-	- Overview of OpenAI, Hugging Face and GPT
-	- Tools Jupyter, VS Code and Python Setup
-- Project 1: Your first chatbot using open ai API
-	- Use open ai response completion API
-	- Simple CLI chatbot
-	- Intro to prompt engineering
+ According to Nitesh, LangChain framework of python can achieve everything on the user side of things and also some things on the Builder side of things. Hence learning lang chain can help understand all the parts of Gen-AI, and this will be our origin to start learning Gen-AI.
+
+Topic 1: [[Langchain]]
+
+
+
+
+
+
+
+
 Phase 1: Prompt Engineering and token management
 Goal: learn the art and science of interacting with LLMs
 

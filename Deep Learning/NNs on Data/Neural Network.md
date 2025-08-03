@@ -11,7 +11,7 @@ They learn by adjusting these weights through training on data, using algorithms
 
 Neural networks power most modern AI applications including image recognition, natural language processing, and machine learning systems.
 
-Example usecase
+Example use case
 Lets say we've a drug to treat illness , and we've 3 groups of people who are given 3 different dosages (low, medium, high)
 ![[638866497801006777.png| 200]]
 Now, we want to predict weather the future dosages will be effective or not  
@@ -20,7 +20,7 @@ we can not solve it through a linear line , the good thing is NN can fit a wiggl
 It can even fit a wiggle to this
 ![[Pasted image 20250627193919.png]]
 
-Note: the [[NN Parameters]]/weighted signals can be very complex but for simplicity we'll take
+Note: the [[NN Parameters]]/weighted signals can be complex but for simplicity we'll take
 $$
 y = Wx + b
 $$
@@ -41,7 +41,7 @@ but in actual NN are much fancier, the middle layers are called hidden layers , 
 While creating a NN you've to decide not of hidden layers, number of nodes in the hidden layer and [[Activation functions]] to use
 
 Let's see how NN fits in above example
-![[638866516319631147.png|200]]
+![[638866516319631147.png|300]]
 
 let's keep the dosage 0 for low 1 for high, Now if we input 0 and pass it through first parameter value we'll get 2.14
  $$
