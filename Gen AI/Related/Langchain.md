@@ -1,9 +1,9 @@
 LangChain is a popular framework for building applications with large language models (LLMs). It provides tools and abstractions to help developers create more complex AI-powered applications.
-1. Suports all major LLMs
+1. Supports all major LLMs
 2. Simplifies developing LLM based applications
 3. Integration available for all major tools
 4. Open source/free/actively developed
-5. Supports all major GenAI use cases
+5. Supports all major Gen AI use cases
 
 Topics
 # 1. Fundamentals 
