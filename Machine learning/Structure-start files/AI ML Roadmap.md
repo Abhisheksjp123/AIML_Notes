@@ -13,7 +13,7 @@ Machine learning
 11. [[Cross Validation]] & [[Grid Search CV]] & [[Sklearn Pipeline]]
 12. [[Machine learning lifecycle]]
 
-[[Q8 - How to approach a Machine learning Problem]]
+[[Q8 - How to approach a Machine learning Problem  (Golden Rule)]]
 
 Deep Learning
 1. [[Neural Network]]
