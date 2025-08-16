@@ -27,17 +27,27 @@ Fix category spelling issues, unit mismatches, duplicates.
 ## **6. Feature Engineering**
  Create new features, bin continuous values, extract date parts, etc.
 
-## **7. Encoding Categorical Variables**
+
+## **7. Train-Test Split & Modeling Prep**
+**Save clean dataset and proceed to modeling.**
+
+>[!Why This Placement?]-
+>**Steps 1-6** should be done on the **entire dataset** because:
+>- Basic cleaning and feature creation doesn't introduce leakage
+>- You need complete data for proper feature engineering
+>- Missing value strategies often benefit from seeing the full data distribution
+>- **Steps 8-9** should be done **separately** on train/test because:
+>- **Encoding**: Fit encoders on training data, transform test data
+>- **Scaling**: Fit scalers on training data, transform test data
+>- This prevents the model from "seeing" test data statistics
+## **8. Encoding Categorical Variables**
 Label encode or one-hot encode depending on type.
 
-## **8. Feature Scaling**
+## **9. Feature Scaling**
 Standardize, normalize, or use robust scaling.
 
-## **9. EDA Insights**
+## **10. EDA Insights**
 Univariate, bivariate, and correlation analysis.
-
-## **10. Train-Test Split & Modeling Prep**
-**Save clean dataset and proceed to modeling.**
 
 
 # Data Modelling

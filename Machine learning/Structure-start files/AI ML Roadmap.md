@@ -14,6 +14,7 @@ Machine learning
 12. [[Machine learning lifecycle]]
 
 [[Q8 - How to approach a Machine learning Problem  (Golden Rule)]]
+[[Q12 - Issues with Practical Machine learning problems]]
 
 Deep Learning
 1. [[Neural Network]]
