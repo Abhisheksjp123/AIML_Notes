@@ -17,6 +17,7 @@ Some of these are:
 3. Language filtering: For Example FineWeb only takes data from the web pages where content is at least 65% in English
 4. PII removal: Personally identifiable information are removed like addressed, emails and phone no's
 Etc
+<<<<<<< Updated upstream
 and you end up with dataset somethin like this, [FineWeb Data](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
 and with this we've our 44 TB of data.
 ## Step 2: Tokenization
@@ -98,3 +99,7 @@ But unlike the zip file they are not loss less compression, but more like loss c
 
 
 
+=======
+and you end up weth dataset somethin like this, [FineWeb Data](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
+and with this we've our 44 TB of data. 
+>>>>>>> Stashed changes
