@@ -11,3 +11,4 @@ SQL allows you to:
 - **Manage transactions** and ensure data integrity
 
 # Types of SQL commands
+![[Pasted image 20250817130720.png]]
