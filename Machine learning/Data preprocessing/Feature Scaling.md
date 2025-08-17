@@ -1,7 +1,7 @@
 Feature scaling is to shrink the feature into certain common range so as to make them comparable
 Two popular types of scaling:
 1. [[Standardization]]
-2. [[Normalization]]
+2. [[Normalization ML]]
 
 Why Feature scaling is important?
 1. ==Faster Convergence:==

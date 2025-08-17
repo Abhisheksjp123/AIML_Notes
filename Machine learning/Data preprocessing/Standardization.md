@@ -1,5 +1,5 @@
 **StandardScaler (Standardization):**
-More popular than [[Normalization]], this brings the mean to 0 and standard deviation to 1
+More popular than [[Normalization ML]], this brings the mean to 0 and standard deviation to 1
 **Note Standardization is a liner transformation, which means it does not affect the distribution of the variable(Does not make it normal distribution), Just shrinks it.
 
 - Formula: 

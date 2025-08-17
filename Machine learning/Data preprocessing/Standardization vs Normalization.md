@@ -1,6 +1,6 @@
 **they're different!** This is a common confusion. Let me clarify:
 
-## [[Standardization]]≠ [[Normalization]]
+## [[Standardization]]≠ [[Normalization ML]]
 
 Code to apply both
 ```

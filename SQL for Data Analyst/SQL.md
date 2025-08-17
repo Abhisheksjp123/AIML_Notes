@@ -12,3 +12,14 @@ SQL allows you to:
 
 # Types of SQL commands
 ![[Pasted image 20250817130720.png]]
+
+1. [[DDL - Data defination language]]
+		[[DATA integrity]]
+2. DML - Data manipulation language (Most Imp)
+3. DCL - Data control language
+4. TCL - Transaction control language
+
+*SQL is a general programming language, there are various DBMS that uses SQL, but since these are seperate environments, all have a slightly different syntaxes. In our study we'll use MySQL*
+# Ideal formatting for SQL
+1. SQL Keywords like CREATE, SELECT, LIKE should ideally be in capital letters
+2. Column, database and table i.e all database object names should ideally be in small letters with __ inplace of space
