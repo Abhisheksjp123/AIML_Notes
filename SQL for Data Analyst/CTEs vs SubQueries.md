@@ -1,4 +1,4 @@
-Great question! Here's a comparison of CTEs (Common Table Expressions) vs subqueries:
+	Great question! Here's a comparison of CTEs (Common Table Expressions) vs subqueries:
 
 ## CTE (Common Table Expression)
 
