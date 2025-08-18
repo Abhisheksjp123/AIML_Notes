@@ -1,0 +1,1 @@
+But why do we need multiple tables? So that we are not repeating data, i.e data redundancy.

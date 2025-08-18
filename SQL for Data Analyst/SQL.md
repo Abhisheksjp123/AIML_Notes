@@ -15,7 +15,9 @@ SQL allows you to:
 
 1. [[DDL - Data defination language]]
 		[[DATA integrity]]
-2. DML - Data manipulation language (Most Imp)
+2. [[DML - Data manipulation language]] (Most Imp)
+	[[Order of Query execution]]
+	[[SQL Functions]]
 3. DCL - Data control language
 4. TCL - Transaction control language
 
