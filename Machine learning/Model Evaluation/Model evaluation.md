@@ -28,23 +28,24 @@ Dataset
 ```
 
 
-## Once we have our testing data, we evaluate model performance using appropriate [[Model Evaluation Metrics]] based on our problem type:
+## [[Model Evaluation Metrics]] :
+Once we have our testing data, we evaluate model performance using appropriate [[Model Evaluation Metrics]] based on our problem type:
 
 **A. Regression Metrics (Quantitative)**
 
-1. [[R Square]] - Explains variance in target variable
-2. [[MAPE]] - Mean Absolute Percentage Error
-3. [[RMSE]] - Root Mean Square Error
+1. R Square - Explains variance in target variable
+2. MAPE - Mean Absolute Percentage Error
+3. RMSE - Root Mean Square Error
 
 **B. Classification Metrics** 
 4. **Confusion Matrix-based metrics**: Precision, Recall, Sensitivity, Specificity
 5. Additional metrics: F1-score, ROC-AUC
 
-## **Limitations of Single Train-Test Split:**
-
+## [[Cross Validation]]
+Limitations of Single Train-Test Split are
 - **Sampling bias**: The specific split may not represent the full dataset
 - **Variance in results**: Different splits can yield different performance estimates
-- **Limited data utilization**: Some data remains unused for training
+- **Limited data utilisation**: Some data remains unused for training
 
-**Solution: [[Cross Validation]]** Cross-validation addresses these limitations by using multiple train-test splits, providing more robust and reliable performance estimates.
+Cross-validation addresses these limitations by using multiple train-test splits, providing more robust and reliable performance estimates.
 

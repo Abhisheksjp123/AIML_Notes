@@ -2,7 +2,7 @@
 To compare a binary classification model **Confusion Matrix** is created:
 ![[Pasted image 20250617151158.png]]
 
-Now why do we create confusion Matrix, a model which is best for an use case can not be that good for other, for example in a medical industry they are okay with false positives but a false negative can be dangerous to some ones life. Similarly in finance and loans industry they are ok with false negative but a false positive can be dangerous. So based on these parameters few KPIs are defined and Datascientist tries to maximize this KPI based on the requirement.
+Now why do we create confusion Matrix, a model which is best for an use case can not be that good for other, for example in a medical industry they are okay with false positives but a false negative can be dangerous to some ones life. Similarly in finance and loans industry they are ok with false negative but a false positive can be dangerous. So based on these parameters few KPIs are defined and Data scientist tries to maximise this KPI based on the requirement.
 
 KPIs: Sensitivity, Specificity, Precision and Recall
 
@@ -36,6 +36,6 @@ ex: we can priorities specificity in Cases like loan application where identifyi
 - **High Sensitivity** ↔ **Low Specificity** (catch more positives but more false alarms)
 - **High Precision** ↔ **Low Recall** (fewer false alarms but miss more positives)
 
-Of a Model with different threshold how to determine which one is better of its several possible confusion matrix?
+Of a Model can have different thresholds. Then how to determine which one is better of its several possible confusion matrix?
 We can plot several possible confusion matrix with different threshold of a model(in this example we're taking logistic regression but we can create confusion matrix for other classification model as well) through:
 [[ROC Curve]]
