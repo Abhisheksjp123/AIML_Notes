@@ -28,7 +28,10 @@ VALUES ('nitish', 'nitish@gmail.com')
  Similarly you can also include multiple values, by adding VALUES() as per your requirement.
 
 
-# RETRIEVE - V.IMP
+*You can also insert a table with insert statement with subqueries, example will come in RETRIEVE>SUBQUERIES*
+
+
+# ==RETRIEVE - V.IMP==
 The most commonly used DML command for querying and retrieving data from tables.
 
 We'll be using smartphone data in this example, present in Github>SQL-Projects>CRUD_DML_operations
@@ -138,6 +141,7 @@ HAVING count>=20
 11. [[SQL Joins]]
 12. [[SQL SubQueries]]
 13. [[SQL Common table expressions - CTEs]]
+14. [[SQL Window Funtion]]
 # UPDATE
 Modifies existing records in database tables.
 
