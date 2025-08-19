@@ -136,7 +136,8 @@ HAVING count>=20
 ```
 
 11. [[SQL Joins]]
-12. 
+12. [[SQL SubQueries]]
+13. [[SQL Common table expressions - CTEs]]
 # UPDATE
 Modifies existing records in database tables.
 
